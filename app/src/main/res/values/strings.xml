@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">RestToDo</string>
+    <string name="facebook_app_id">536734753170246</string>
+    <string name="title_activity_rest_menu">RestMenu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_to_fav">Add to Favourites</string>
+    <string name="title_activity_restaurant_page">RestaurantPage</string>
+    <string name="title_activity_event">Settings</string>
+    <string name="copyright">By Ofir Monis &amp; Yoni Daniel</string>
+    <!-- String related to activity event-->
+    <string name="complete_button">Mark As Done</string>
+    <string name="change_date_button">Change Date</string>
+
+    <!-- Tabs names-->
+    <string name="tab_one">TODO</string>
+    <string name="tab_two">Restaurants</string>
+    <string name="tab_three">My Account</string>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="event_title">Title</string>
+    <string name="create_event_button">Create event</string>
+
+    <string name="reviews_headline">Reviews - swipe to reload</string>
+    <string name="rests_headline">Restaurants - swipe to reload</string>
+    <string name="events_headline">Events - swipe to reload</string>
+
+    <string name="edit_text_date">dd/mm/yy</string>
+
+    <!-- Buttons-->
+    <string name="choose_date">Choose a date</string>
+    <string name="choose_time">Choose the time</string>
+    <string name="web_button">Open web</string>
+
+
+</resources>

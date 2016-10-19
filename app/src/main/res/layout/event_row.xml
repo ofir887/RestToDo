@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/image_view_event"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:ems="10"
+        android:id="@+id/text_event"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textIsSelectable="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/image_view_event"
+        android:layout_above="@+id/text_rest_name"
+        android:textColor="@color/com_facebook_blue"
+        android:paddingLeft="25dp"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_rest_name"
+        android:layout_alignBottom="@+id/image_view_event"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/text_date"
+        android:paddingLeft="25dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_date"
+        android:layout_alignTop="@+id/text_rest_name"
+        android:layout_toEndOf="@+id/image_view_event"
+        android:layout_alignBottom="@+id/image_view_event"
+        android:layout_alignParentStart="false" />
+
+</RelativeLayout>

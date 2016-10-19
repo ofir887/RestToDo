@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/rest_circle_image"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:ems="10"
+        android:layout_weight="0.15"
+        android:id="@+id/rest_name_field"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textIsSelectable="false"
+        android:textAlignment="center" />
+
+</LinearLayout>
